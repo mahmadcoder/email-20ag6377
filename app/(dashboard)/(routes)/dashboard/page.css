@@ -1,0 +1,39 @@
+.custom-input-form {
+    margin-left: 50px
+}
+
+
+.custom-input-box {
+    padding: 1.5rem;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+
+@media only screen and (min-width:1000px) {
+    .custom-input-form {
+        margin-left: 100px
+    }
+
+    .custom-input-box {
+        /* padding: 1.25rem; */
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .custom-input-form {
+        margin-left: 0px
+    }
+
+    .main-form {
+        align-items: center;
+    }
+    .main-btns button{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
